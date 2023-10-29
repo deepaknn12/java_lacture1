@@ -1,0 +1,9 @@
+public class simple_interest_calculator {
+    public static void main (String[]args){
+        int p=2000;
+        int r=10;
+        int t=2;
+        int si=(p*t*r)/100;
+        System.out.println(si);
+    }
+}
