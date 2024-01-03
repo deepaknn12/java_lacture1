@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class sum_of_even {
 
     public static void main(String[] args) {
-	try(Scanner s = new Scanner(System.in)) {
+	Scanner s = new Scanner(System.in);
         int n=s.nextInt();
         int sum=0;
         int i=1;
@@ -17,5 +17,5 @@ System.out.println(sum);
     }
 	}
 
-}
+
 
