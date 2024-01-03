@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class prime {
     public static void main(String[] args) {
-        try (Scanner s = new Scanner(System.in)) {
+        Scanner s = new Scanner(System.in);
             int n = s.nextInt();
             int d = 2;
             while (d <= n - 1) {
@@ -15,4 +15,3 @@ public class prime {
             System.out.println("prime");
         }
     }
-}
