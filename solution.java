@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class solution {
    public static void main(String[] args) {
-        try (Scanner s = new Scanner(System.in)) {
+        Scanner s = new Scanner(System.in);
             String c = s.nextLine(); 
                 int ch = c.charAt(0);
                 if (ch >= 65 && ch <= 90) {
@@ -14,4 +14,3 @@ public class solution {
                 }
         }
     }
-}
