@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class largestofthreenumber {
     public static void main(String[] args) {
-        try (Scanner s = new Scanner(System.in)) {
+        Scanner s = new Scanner(System.in);
             int a = s.nextInt();
             int b = s.nextInt();
             int c = s.nextInt();
@@ -19,4 +19,4 @@ public class largestofthreenumber {
         }
     }
 
-}
+
