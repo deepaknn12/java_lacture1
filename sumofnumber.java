@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class sumofnumber {
     public static void main(String[] args) {
-        try (Scanner s = new Scanner(System.in)) {
+        Scanner s = new Scanner(System.in)
             int n = s.nextInt();
             int i = 1;
           int sum=0;
@@ -14,4 +14,4 @@ public class sumofnumber {
         }
     }
 
-}
+
